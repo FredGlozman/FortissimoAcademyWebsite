@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		
+		<title>Music Academy Fortissimo</title>
+		
+		<!--CSS/JS Links/scripts-->
+		<link href="StylesheetsScripts/maf.css" rel="stylesheet" type="text/css" />
+		<link href="StylesheetsScripts/js-image-slider.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="StylesheetsScripts/tooltip-line.css" />
+    	<script src="StylesheetsScripts/js-image-slider.js" type="text/javascript"></script>
+		<script src="StylesheetsScripts/js-navBar-adjuster.js" type="text/javascript"></script>	
+		<script src="StylesheetsScripts/js-utilities.js" type="text/javascript"></script>	
+
+	</head>
+	
+	<body onload="javascript:window_onload();" onload="MM_preloadImages('images/back2.gif')">
+		
+		<div class="container">
+				<img src="images/header6.png"/>	
+				
+				<div id="navbar" class="navbar_absolute">
+				<ul>						
+					<li>
+						<a class="navigator" href="index.html">
+							<font color="#ffff00">Home</font>
+						</a>
+					</li>
+					
+					<li>
+						<a class="navigator" href="pages/about.html">
+							About Us
+						</a>
+					</li>
+						
+					<li>
+						<a class="navigator" href="pages/faculty.html">
+							Faculty
+						</a>
+					</li>
+						
+				 	 <li>
+						<a class="navigator" href="pages/classes.html">
+							Classes
+						</a>
+					</li>
+					
+					<li>
+						<a class="navigator" href="pages/festivals.html">
+							Festivals
+						</a>
+					</li>
+						
+					<li>
+						<a class="navigator" href="/minishowcase">
+							Gallery
+						</a>
+					</li>
+						
+					<li>
+						<a class="navigator" href="pages/videos.html">
+							Videos
+						</a>
+					</li>
+						
+					<li>
+						<a class="navigator" href="pages/contact.html">
+							Contact Us
+						</a>
+					</li>
+				</ul>
+				</div>
+				
+				<style>
+					/*page slideshow override*/
+					#sliderFrame, #sliderFrame div {
+    					box-sizing: content-box;
+					}
+					#sliderFrame 
+					{
+   						position:relative;
+   						top:27px;
+    					width:960px;
+   					 	margin:0 auto; /*center-aligned*/
+					}
+
+					#slider, #slider div.sliderInner {
+    					width:960px;height:576px;/* Must be the same size as the slider images */
+					}
+
+					#slider {
+						background:#fff url(loading.gif) no-repeat 50% 50%;
+						position:relative;
+						margin:0 auto; /*center-aligned*/
+    					transform: translate3d(0,0,0);
+    					box-shadow: 0px 1px 5px #999999;
+					}
+					/* ------ built-in navigation bullets wrapper ------*/
+					/* Note: check themes\2\js-image-slider.css to see how to hide nav bullets */
+					#slider div.navBulletsWrapper  {
+    					top:540px;/* Its position is relative to the #slider */
+						text-align:center;
+						background:none;
+						position:relative;
+						z-index:5;
+					}
+				</style>
+				
+				<div id="sliderFrame">
+       				<div id="slider" align="center">
+                		<img src="images/home_slideshow_images/IMG_7993.jpg" align="center" width="960px" height="576px"/>
+            			<img src="images/home_slideshow_images/IMG_8105.jpg" align="center" width="960px" height="576px"/>
+            			<img src="images/home_slideshow_images/IMG_8301.jpg" align="center" width="960px" height="576px"/>
+            			<img src="images/home_slideshow_images/IMG_7935.jpg" align="center" width="960px" height="576px"/>
+            			<img src="images/home_slideshow_images/IMG_8342.jpg" align="center" width="960px" height="576px"/>
+            			<img src="images/home_slideshow_images/IMG_7888.jpg" align="center" width="960px" height="576px"/>
+        			</div>
+    			</div>
+				
+				<div id="bg_home">
+ 				 	<div id="search-container">
+    					<div id="search-bg"></div>
+    						<div id="search">
+    						
+    							<!--<div class="myButton"><a href="images/registration_2014_2015.pdf" target="_blank">COURSE REGISTRATION: August 17th - September 30th</a></div>-->
+    							
+    							<div class="myButton"><a href="images/Fortissimo_POSTER_12x18_2015.pdf" target="_blank"><img src="images/Fortissimo_POSTER_12x18_2015.jpg" width="225px" height="337.5px"/></a></div>
+
+    							
+    							<br><br>
+    							<hr class="cloud">
+
+    							<div style="overflow: hidden;">
+    								
+    								<div style="float:left; width:400px; position: absolute; top:455px;>
+    									<p class="main" align="centre"><font style="font-size:20px; color:purple;">Music Academy Fortissimo is happy to announce the opening of it's <b>new orchestra program</b>. Join an exciting creative environment where musicians of all ages come to rehearse and perform together, make important friendships and discover a passion for music. Minimal instrumental proficiency required.<br><br>More info at :514-836-6872</font><p>
+    								</div>
+
+    								<br>
+    								<div style="width:480px; height:310px; float:right;">
+    									<img src="images/OrchestraPhotos/Dollarphotoclub_82163036.jpg" align="center" width="480px" height="310px"/>
+    								</div>
+
+    								<!-- !?!?!??!CANT HAVE 2 IMAGE SLIDERS ON 1 PAGE?!?!?!?!?
+    								<div id="sliderFrame" style="width:480px; height:288px; float:right;">
+       									<div id="slider" align="right" style="width:480px; height:288px;">
+                							<img src="images/OrchestraPhotos/Dollarphotoclub_57980213.jpg" align="center" width="480px" height="288px"/>
+            								<img src="images/OrchestraPhotos/Dollarphotoclub_66164992.jpg" align="center" width="480px" height="288px"/>
+            								<img src="images/OrchestraPhotos/Dollarphotoclub_66165174.jpg" align="center" width="480px" height="288px"/>
+            								<img src="images/OrchestraPhotos/Dollarphotoclub_82163036.jpg" align="center" width="480px" height="288px"/>
+        								</div>
+    								</div> 
+    								-->
+    				
+    							</div>
+
+    							<br><br>
+    							<hr class="cloud">
+
+								<h3 align="JUSTIFY">At Fortissimo Academy Of Music And Arts our goal is to enhance Montreal's quality of life through the appreciation, enjoyment, learning and performance of music and the arts</h3>
+					
+								<p class="main" align="JUSTIFY" style="margin-bottom: 0in;">Welcome to the Cote Saint-Luc&rsquo;s Fortissimo Academy of Music and Arts where our goal is to spread the joy of music and art! Each year our highly professional faculty and talented students participate in classes, ensembles, competitions, appear at student recitals and concerts, proudly carrying on a rich tradition of studying and performing music. Our students&rsquo; age range is from 2 to over 80 years old. We are happy to provide opportunities for everyone to reach their own personal musical goals and fulfill their most sublime expectations.</p>
+			
+								<img align="right" alt="Principal" class="main" height="230" src="images/principal.jpg" style="color: #006600; font-weight: bold; font-family: Tahoma, Verdana, Arial, sans-serif; font-size: 13px;" width="160"/>
+			
+								<p class="main" align="JUSTIFY" style="margin-bottom: 0in;">Among our partners are the City of C&ocirc;te Saint-Luc, the City of Hampstead, Agence Ometz and others. In the following years we plan to continue to expand our list of partners and patrons, to enrich and diversify our music and art program. At present we offer a comprehensive music education curriculum, which includes: solfege, piano group lessons, choral program, music history and theory, early childhood development and other classes, as well as a multi-level fine arts program, which; among others; boasts a unique painting class for 2 to 4 year-olds. Our art faculty is made up of professional artists and educators, each working in their respective areas.</p>
+	
+								<p class="main" align="JUSTIFY" style="margin-bottom: 0in;">In the future we plan to officially launch a financial aid program, which will serve our mission to provide accessible music instruction to everyone in the community, regardless of their income levels. Our most immediate plans include moving to a new, improved space within the same building, with bright new classrooms and a brand new art studio.</p>
+
+								<p class="main" align="JUSTIFY" style="margin-bottom: 0in;">In the past year we became a registered charity organization and obtained a charity number. We plan to embark upon a variety of fundraising initiatives in the nearest future.<br>In the meantime you are encouraged to make a donation to the school via our Gifted Student Program by calling 514-836-6872 or e-mailing <span style="text-decoration: underline;"><a href="mailto:musicacademyfortissimo@gmail.com"><font color="green">musicacademyfortissimo@gmail.com</font></a></span> for details.</p>
+
+								<p class="main" align="JUSTIFY" style="margin-bottom: 0in;">We thank you for joining the Fortissimo Family and look forward to introducing you to the magical world of music and art.</p>
+
+								<p class="main" align="JUSTIFY" style="margin-bottom: 0in;">Svetlana Klempner</p>
+
+								<p class="main" align="JUSTIFY">Principal</p>
+										
+								<br>	
+								<hr class="cloud" style="width:920px;">
+								<br>
+								
+								<div id="footer">
+									<div style="float:left;" width:64px; height:64px">
+										<a class="tooltip"><img src="images/address-icon.png" height="64" width="64"><span class="tooltip-content"><span class="tooltip-text"><span class="tooltip-inner">												
+												5555 Westminster Ave.<br> 
+												Côte Saint-Luc, QC. H4W 2J2<br>
+												(Suite 318 or 410)</span></span></span>
+										</a>
+									</div>
+																			
+									<div style="float:left;" width:64px; height:64px">
+										<a class="tooltip"><img src="images/phone-symbol-2-256x256.png" height="64" width="64"><span class="tooltip-content"><span class="tooltip-text"><span class="tooltip-inner">					
+											514-836-6872</span></span></span>
+										</a>
+									</div>
+									
+									<div style="float:left;" width:64px; height:64px">
+										<a class="tooltip"><img src="images/MB_0003_mail2.png" height="64" width="64"><span class="tooltip-content"><span class="tooltip-text"><span class="tooltip-inner">musicacademyfortissimo<br>@gmail.com</span></span></span></a>
+									</div>
+								</div>
+																																																																							
+    						</div>
+  						</div>
+					</div>									
+				</div>
+		</div>
+
+	</body>
+</html>

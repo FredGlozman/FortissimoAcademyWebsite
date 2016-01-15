@@ -1,0 +1,456 @@
+@charset "UTF-8";
+
+html {
+    width: 100%;
+	height:100%;
+	margin: 0;
+    padding: 0;
+
+}
+
+body {
+	height:100%;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif; 
+	margin: 0px; 
+	line-height: 1.23; 
+	text-align: center; 
+	background: rgb(207,210,163); 
+	color: #000;
+	background-image:url(../images/back2.gif); 
+}
+
+a:link {text-decoration: none; color:#990033;}
+
+a:hover {color:#ff9999;text-decoration: underline; }
+
+a:visited {text-decoration: none; color:#990033;}
+
+#header {
+	height: 212px;
+	width: 960px;
+	clear: both;
+	padding:0;
+	position: relative;
+}
+
+#headerimg {
+	z-index: 2;
+	padding:0;
+}
+
+div.container {	
+	height:100%;
+	width: 960px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	text-align: center; 
+	padding: 15px;
+}
+
+.motto {
+	font-family: Arial, Helvetica, sans-serif; 
+	margin: 0; 
+	font-size: 22px; 
+	color: #FFFFFF; 
+	line-height: 170%; 
+	text-align: left; 
+	z-index: 2; 
+	top: 60px; 
+	left: 555px; 
+	position: absolute;
+}
+
+#left {
+	width: 261px; 
+	background: #FFFFFF; 
+	float: left; 
+	padding: 0; 
+	margin-left: 0;
+}
+
+.margin {
+	width: 960px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	text-align: left; 
+	padding: 0;
+}
+	
+#page {
+	position: relative; 
+	border: solid 0px #000000; 
+	padding: 0px; 
+	padding-bottom: 0px;
+	background: #ffffff;
+}
+
+
+
+#left {
+	width: 261px; 
+	background: #FFFFFF; 
+	float: left;
+	padding: 0; 
+	margin-left: 0;
+	height:100%;
+}
+
+#content_a {
+	width: 699px; 
+	height:100%
+	padding-top:20px; 
+	margin-left: 261px; 
+	background: #e7e7e4; 
+	margin-top: 0; 
+	background-image:url(images/back2.gif); 
+	padding-bottom:0px;
+}
+
+#content {
+	height:100%;
+	width: 950px; 
+	
+	padding-top:0px; 
+	background: rgb(207,210,163); 
+	margin-top: 0px; 
+	background-image:url(images/back2.gif); 
+	padding-bottom:0px;
+	padding: 5px;
+	
+}
+
+
+#main {
+	font-family: Arial, 
+	Helvetica, sans-serif; 
+	margin: 0; 
+	text-align: left; 
+	z-index: 2; 
+	top: 230px; 
+	left: 269px; 
+	position: absolute; 
+}
+
+#main h2 {font-size: 1.3em; color: #606060; line-height: 150%; weight: normal;}
+
+#contact_p {
+	font-family: Arial, Helvetica, sans-serif; 
+	margin: 0; 
+	text-align: left; 
+	z-index: 2; 
+	top: 270px; 
+	left: 290px; 
+	position: absolute; 
+	font-size: 1.2em; 
+	color: #6b6b6b; 
+}
+
+h2.main  {font-size: 1.3em; color: #606060; line-height: 150%; weight: normal; padding-left:29px;}
+h3.main {font-size: 1.1em; color: #6b6b6b; line-height: 80%; weight: normal; padding-left:29px; }
+
+p.main {
+	font-size: 16px; 
+	color: #303030 ; 
+	line-height: 120%; 
+	padding-right: 40px; 
+	padding-left:29px;
+}
+
+hr.main {align: right; width: 640px; height: 1px; color: #6b6b6b; margin-top: 40px; margin-bottom: 0; padding-bottom: 0;}
+img.main {padding-left:29px; padding-right: 10px;}
+
+#spacer {heigt: 35px;}
+
+
+#main h3 {font-size: 1.1em; color: #6b6b6b; line-height: 80%; weight: normal; }
+
+#main p {font-size: 0.95em; color: #6b6b6b; line-height: 120%; padding-right: 40px;}
+
+
+.festivals {z-index: 2; top: 328px; left: 19px; position: absolute;}
+
+.home {z-index: 2; top: 375px; left: 25px; position: absolute;}
+
+.about {z-index: 2; top: 419px; left: 25px; position: absolute;}
+
+.faculty {z-index: 2; top: 463px; left: 25px; position: absolute;}
+
+.classes {z-index: 2; top: 507px; left: 25px; position: absolute;}
+
+.gallery {z-index: 2; top: 593px; left: 25px; position: absolute;}
+.videos {z-index: 2; top: 545px; left: 19px; position: absolute;}
+
+.contact {z-index: 2; top: 628px; left: 25px; position: absolute;}
+
+b {color: #990033;}
+
+
+h3 {
+	color: rgba(255, 145, 0, 1);
+	font-size: 26px;
+	font-family: "Helvetica Neue", "Helvetica", "Georgia", "Times New Roman"
+}
+
+h4 {
+	color: purple;
+	font-size: 20px;
+	font-family: "Helvetica Neue", "Helvetica", "Georgia", "Times New Roman"
+	
+	padding-right: 40px; 
+	padding-left:29px;
+}
+
+h6 {
+	color: black;
+	font-size: 16px;
+	font-family: "Helvetica Neue", "Helvetica", "Georgia", "Times New Roman"
+}
+
+
+p {
+	color: black;
+	font-size: 17px;
+	font-family: "Helvetica Neue", "Helvetica", "Georgia", "Times New Roman"
+	text-align: left;
+}
+
+
+/* CSS style for navigation bar */
+
+ul {
+	width: 960px;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    text-align:center;
+    width: 120px;
+}
+
+a.navigator:link, a.navigator:visited {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    color: #F8F8F8;
+    background: rgb(152, 191, 33); /* for IE */
+    background-color: rgba(152, 191, 33, 0.9);
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.navigator:hover, a.navigator:active {
+    background-color: #7A991A;
+}
+
+/*CSS to help make navigation bar adjust for scrolling and stay on top of browser window*/
+
+#navbar.navbar_fixed {
+  position:fixed;
+  top:0px;
+  width:100%;
+  height:100px;
+  z-index:9999;
+}
+#navbar.navbar_absolute {
+  position:absolute;
+  top:227px;
+  width:100%;
+  height:100px;
+  z-index:9999;
+}
+
+/* CSS style for buttons */
+
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #3e7327;
+	-webkit-box-shadow: 0px 10px 14px -7px #3e7327;
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77b55a), color-stop(1, #72b352));
+	background:-moz-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-webkit-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-o-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:-ms-linear-gradient(top, #77b55a 5%, #72b352 100%);
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77b55a', endColorstr='#72b352',GradientType=0);
+	background-color:#77b55a;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #72b352), color-stop(1, #77b55a));
+	background:-moz-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-webkit-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-o-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:-ms-linear-gradient(top, #72b352 5%, #77b55a 100%);
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#72b352', endColorstr='#77b55a',GradientType=0);
+	background-color:#72b352;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* CSS style for boxes that blur background and add a color */
+
+#bg, #search-bg {
+  background-repeat: no-repeat;
+  width: 960px;
+  background-size: 1080px auto;
+}
+
+#bg_home {
+  background-position: center top;
+  padding: 27px 0px 0px 0px;
+}
+
+#bg {
+  background-position: center top;
+  padding: 50px 0px 0px 0px;
+}
+
+#search-container {
+  position: relative;
+}
+
+#search-bg {
+  /* Absolutely position it, but stretch it to all four corners, then put it just behind #search's z-index */
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 99;
+
+  /* Pull the background 70px higher to the same place as #bg's */
+  background-position: center -70px;
+
+  -webkit-filter: blur(10px);
+  filter: url('/media/blur.svg#blur');
+  filter: blur(10px);
+}
+
+#search {
+  /* Put this on top of the blurred layer */
+  position: relative;
+  z-index: 100;
+  padding: 20px;
+  background: rgb(255,255,255); /* for IE */
+  background: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 600px ) {
+  #bg { padding: 10px; }
+  #search-bg { background-position: center -10px; }
+}
+
+
+/*CSS for line separator*/
+
+.line-separator{
+
+height:5px;
+
+background:#717171;
+
+border-bottom:1px solid #313030;
+
+}
+
+hr.shadow {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+hr.moustache {
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.moustache:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+
+hr.cloud {
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr.cloud:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
+<!-- CSS for tooltips -->
+a.basicTooltip {outline:none; }
+a.basicTooltip strong {line-height:30px;}
+a.basicTooltip:hover {text-decoration:none;} 
+a.basicTooltip span {
+	z-index:10; display:none; padding:14px 20px;
+	margin-top:-200px; margin-left:-10px;
+	width:300px; line-height:16px;
+}
+a.basicTooltip:hover span{
+	display:inline; position:absolute; color:#111;
+	border:1px solid #DCA; background:#fffAF0;}
+.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+		    
+/*CSS3 extras*/
+a.basicTooltip span
+{
+	border-radius:4px;
+	box-shadow: 5px 5px 8px #CCC;
+}
+/*style for the course titles*/ 
+p.basicTooltip font
+{
+	color: #FF0000;
+	font-size: 20px;
+} 
+
+/*Footer*/
+#footer{
+	width:195px; 
+	height:65px; 
+	align:center; 
+	margin-left: auto; 
+	margin-right: auto; 
+	vertical-align: middle;
+}
+
+/*Message Boxes*/
+.message-box { text-align: center; padding: 5px; color:#545454; width:80%;  margin:5px auto; }
+.clean { background-color: #efefef; border-top: 2px solid #dedede; border-bottom: 2px solid #dedede; }
+.info  { background-color: #f7fafd; border-top: 2px solid #b5d3ff; border-bottom: 2px solid #b5d3ff; }
+.ok    { background-color: #d7f7c4; border-top: 2px solid #82cb2f; border-bottom: 2px solid #82cb2f; }
+.alert { background-color: #fef5be; border-top: 2px solid #fdd425; border-bottom: 2px solid #fdd425; }
+.error { background-color: #ffcdd1; border-top: 2px solid #e10c0c; border-bottom: 2px solid #e10c0c; }
