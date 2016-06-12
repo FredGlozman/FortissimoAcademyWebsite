@@ -150,7 +150,7 @@ fadeSlideShow.prototype={
 				try{
 					setting.onslide.call(slideshow, setting.$gallerylayers.eq(setting.fglayer).get(0), setting.curimage)
 				}catch(e){
-					alert("Fade In Slideshow error: An error has occured somwhere in your code attached to the \"onslide\" event: "+e)
+					alert("Fade In Slideshow error: An error has occured somewhere in your code attached to the \"onslide\" event: "+e)
 				}
 				if (setting.descreveal=="peekaboo" && setting.longestdesc!=""){
 					slideshow.showhidedescpanel('show')
